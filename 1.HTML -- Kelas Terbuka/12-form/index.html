@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <main>
+            <h1>Membuat form</h1>
+            <article>
+                <form action="https://httpbin.org/get" method="get">
+                    <p>
+                        <label for="namaDepan">Nama Depan:</label>
+                        <input type="text" name="namaDepan" id="namaDepan" placeholder="jone" required autofocus autocomplete="on">
+                    </p>
+
+                    <p>
+                        <label for="namaBelakang">Nama Belakang:</label>
+                        <input type="text" name="namaBelakang" id="namaBelakang" placeholder="doe" required autocomplete="on">
+                    </p>
+
+                    <p>
+                        <label for="pass">Password:</label>
+                        <input type="password" name="pass" id="pass" required>
+                    </p>
+
+                    <h4>WNI: Radio Button</h4> 
+                    <p>
+                        <input type="radio" name="WNI" id="ya">
+                        <label for="ya">ya</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" name="WNI" id="tidak">
+                        <label for="tidak">tidak</label>
+                    </p>
+
+                    <h4>Musik Favorit: Checkbox</h4>
+                    <p>
+                        <input type="checkbox" name="dangdut" id="dangdut">
+                        <label for="dangdut">Dangdut</label>
+                        <br>
+                        <input type="checkbox" name="jazz" id="jazz">
+                        <label for="jazz">Jazz</label>
+                        <br>
+                        <input type="checkbox" name="pop" id="pop">
+                        <label for="pop">pop</label>
+                    </p>
+
+                    <h4>Dropdown list</h4>
+                    <p>
+                        <select name="pekerjaan" id="pekerjaan">
+                            <option value="Mahasiswa">Mahasiswa</option>
+                            
+                            <option value="wirausaha">Wirausaha</option>
+
+                            <option value="pns">PNS</option>
+                        </select>
+                    </p>
+
+                    <h4>Upload file</h4>
+                    <p>
+                        <input type="file" name="photo" id="photo" value="upload-photo">
+                    </p>
+
+                    <p>
+                        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">submit</button>
+                        <button type="reset">reset</button>
+                    </p>
+                </form>
+            </article>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Latihan HTML 2</title>
+    </head>
+    <body>
+        <h1>Perpustakaan Kabupaten Buton Utara</h1>
+        <hr>
+        <article>
+            <h4>halaman web</h4>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+
+                <li><a href="buku.html">Daftar buku</a></li>
+
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </article>
+        <hr>
+        <article>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend><h1>Kontak</h1></legend>
+                    <p>
+                        <label for="nama">Nama:</label>
+                        <input type="text" name="nama" id="nama" placeholder="your name" required autocomplete="on" autofocus>
+                    </p>
+                    
+                    <p>
+                        <label for="pertanyaan">Pertanyaan:</label>
+                        <br>
+                        <textarea name="pertanyaan" id="pertanyaan" cols="30" rows="10" placeholder="ketik disini" required></textarea>
+                    </p>
+                    <p>
+                        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </fieldset>
+            </form>
+
+        </article>
+    </body>
+</html>
