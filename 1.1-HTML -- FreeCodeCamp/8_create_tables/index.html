@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- meta tidak akan kelihatan di browser but ini berguna untuk mesin pencari-->
+        <meta charset="UTF-8">
+        <meta name="author" content="ARDIMAN">
+        <meta name="description" content="this website contains all the things that in my brain:D">
+        
+        <title>My first web page</title>
+
+        <!-- menampilkan icon di head page-->
+        <link rel="icon" href="htlm5.png" type="image/x-icon">
+
+        <!-- menghubungkan dengan css file-->
+        <link rel="stylesheet" href="main_dark.css" type="text/css">
+    </head>
+    
+    <body>
+        <h1>my space!</h1>
+
+        <header>
+        <nav>
+            <ul>
+                <li><a href="#pendahuluan">Pendahuluan</a></li>
+                <li><a href="#pembahasan">pembahasan</a></li>
+                <li><a href="#places">Tempat-tempat yang cukup mantap</a></li>
+            </ul>
+        </nav>
+        </header>
+        
+        <hr> <!--horizontal rule-->
+        
+        <main>
+        <article id="pendahuluan">
+        
+        <h2>1. pendahuluan: im ready!</h2>
+        
+        <img src="img/htlm5.png" alt="HTML5 LOGO" title="HTML5 LOGO:D" width="300" height="300">
+        
+    <section>
+        <h3>Mengode dengan html:</h3>
+        <figure>
+            <figcaption>
+                Contoh code dalam HTML:
+            </figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+            </p>
+        </figure>
+        
+        <p>
+            halo nama saya ardiman
+            <br> saya siap belajar <abbr title="Hiper Text Markup Language 5">HTML5</abbr>
+        </p>
+    </section>
+
+    <section>
+        <h3>ini adalah subtopic dari pendahuluan</h3>
+
+        <aside>
+            <details>
+            <summary>
+                sebelum saya menjelaskan, tebak <mark>berapa jam</mark> saya ngoding perhari
+            </summary>
+            <p>
+                saya ngoding dari jam <time datetime="07:00"> 7 pagi </time> sampai jam <time datetime="11:00">11 siang</time>, sekitar <time datetime="PT4H">4 jam</time>.
+            </p>
+            </details>
+        </aside>
+    </section>
+    
+    </article>
+    
+        <hr>
+        
+    <article id="pembahasan">
+        <h2>2. pembahasan</h2>
+
+    <section>
+        <h3>html is great: </h3>
+        <p>&nbsp;&nbsp;&nbsp;saya sedang belajar <strong><abbr title="Hipertext Markup Language">HTML</abbr></strong> 
+            <br> &nbsp;&nbsp;&nbsp;HTML adalah the basic untuk belajar <abbr title="Website Developer">web dev</abbr>
+            <br> &nbsp;&nbsp;&nbsp;saya belajar html di freecodecamp
+        </p>
+    </section>
+
+    <section>
+        <h3>syarat-syarat untuk belajar:</h3>
+        <p> note: syarat dan ketentuan berlaku</p>
+        
+        <!--ordered list-->
+        <ol>
+            <li>siap mental</li>
+            <li>selalu berdoa sebalum belajar</li>
+            <li><em>previllege:D</em></li>
+        </ol>
+
+        <br>
+        
+        <table>
+            <caption> MY JADWAL</caption>
+            
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Waktu</th>
+                <th scope="col">Aktivitas</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="07:00">07:00</time>-<time datetime="11:00">11:00</time>
+                </td>
+                <td>Belajar html dan pemrograman</td>
+            </tr>
+            <tr>
+                <th scope="row">afternoon</th>
+                <td>
+                    <time datetime="12:00">12:00</time>-<time datetime="15:00">15:00</time>
+                </td>
+                <td>Makan siang dan tidur siang</td>
+            </tr>
+            <tr>
+                <th scope="row">evening</th>
+                <td>
+                    <time datetime="15:30">15:30</time>-<time datetime="17:00">17:00</time>
+                </td>
+                <td>Belajar logika pemrograman</td>                
+            </tr>
+            <tr>
+                <th scope="row">maghrib</th>
+                <td rowspan="2">All other times</td>
+                <td>Free time</td>
+            </tr>
+            <tr>
+                <th scope="row">night</th>
+                <td>Sleep</td>                
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    ini adalah jadwalku. Just eat, sleep, shalah, code and repeat.
+                </td>
+            </tr>
+        </tfoot>
+        </table>
+
+        <br>
+        <address>
+            <a href="https://butonutarakab.go.id/">Buton Utara</a>
+            <br> Sulawesi Tenggara
+            <br> Indonesia &lt;3
+        </address>
+    </section>
+    </article>
+        
+        <hr>
+    
+        <article id="places">
+        <h2>Tempat-Tempat yang akan saya kunjungi hehe:D</h2>
+        
+        <!--unordered list-->
+        <ul>
+            <li><p>SWISS</p></li>
+            <li><P>JEPANG</P></li>
+            <li><P>BALI</P></li>
+        </ul>
+
+        <p>here's why:</p>
+
+        <!--description list-->
+        <dl>
+            <dt>saya akan mengunjungi swiss:</dt>
+            <dd>Swiss Alps: Pegunungan Alpen menyajikan pemandangan yang indah di Swiss. Gunung Matterhorn, yang terletak di perbatasan dengan Italia, adalah salah satu ikon alam Swiss yang paling terkenal.
+            <br>
+
+            <figure>
+                <img src="img/Matterhorn_from_Domhütte_-_2.jpg" alt="Matterhorn Mountain" title="this is beautiful" width="400" height="225" loading="lazy">
+                <figcaption>Swiss Icon: Matterhorn Mountain</figcaption>
+            </figure>
+            </dd>
+            
+            <dt>saya akan mengunjungi jepang:</dt>
+            <dd>Kebun Zen: Kebun Zen adalah taman yang dirancang dengan hati-hati yang menjadi ciri khas budaya Jepang. Taman-taman ini terkenal karena desain yang harmonis dan penggunaan batu, pasir, dan tanaman yang ditata dengan penuh perhatian.
+            <br>
+            
+            <figure>
+                <img src="img/image.jpg" alt="Japanese zen garden" title="zen garden, beautiful." width="400" height="250" loading="lazy">
+                <figcaption>Japanese Zen Garden</figcaption>
+            </figure>
+
+            </dd>
+
+            <dt>bali ndak usah lah ya, sudah ditau</dt>
+            <dd>karena bali sangat mantap dan dekat coy
+            <br>
+
+            <figure>
+                <img src="img/4a0885ebc3c02b217cbf6c079eca6b37.jpg" alt="Bali is the most beautiful" title="Most beautiful." width="400" height="250" loading="lazy">
+                <figcaption>Candi in Bali</figcaption>
+            </figure>
+            </dd>
+            
+        </dl>
+        </article>
+        
+        </main>
+        <hr>
+        
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">ARDIMAN</a> &gt;&gt;&gt;
+        </p>
+
+        <p><a href="#">Back to the top</a></p>
+    </footer>
+
+    </body>
+</html>

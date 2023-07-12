@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="ARDIMAN">
+        <meta name="description" content="sub-website tentang kontak waroeng nasi padang">
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <title>Kontak Kami</title>
+    </head>
+    <body>
+        <h1>Kontak Kami</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#tentang-wnp">Tentang WNP</a></li>
+                    <li><a href="index.html#menu">Menu Kami</a></li>
+                    <li><a href="hours.html">Jam Buka</a></li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="img/gambarcontact.jpeg" alt="gambar nasi padang" title="nasi padang, nikmat!!!" height="350" width="300" loading="lazy">
+                <figcaption>Sedaaap!</figcaption>
+                </figure>
+        </header>
+        <hr>
+        <article>
+            <h2>Form Kontak Kami</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Kirimi Kami Pesan:D</legend>
+                    <p>
+                        <label for="inputName">Name:</label>
+                        <input type="text" name="inputName" id="inputName" placeholder="Nama Kamu" autocomplete="on" autofocus required>
+                    </p>
+                    <p>
+                        <label for="inputEmail">Email:</label>
+                        <input type="email" name="inputEmail" id="inputEmail" placeholder="Email Kamu" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="message">Pesan darimu, untuk kami;D</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="ketik disini"></textarea>
+                    </p>
+                </fieldset>
+                <br>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Kirim</button>
+                <button type="reset">Reset</button>
+            </form>
+
+            <h2>Lokasi Kami</h2>
+            <address>
+                <p>
+                Jl. Hayam Wuruk No.5, RT.6/RW.2, Kb. Klp., Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta.
+                </p>
+                <p>phone: <a href="tel:+621234567890">0812-3456-7890</a></p>
+            </address>
+
+        </article>
+        <hr>
+        <footer>
+            <p><a href="#">Back to top</a></p>
+            <p>Copyright &copy; Waroeng Nasi Padang</p>
+        </footer>
+
+    </body>
+</html>
