@@ -1,0 +1,46 @@
+/* universal selector */
+*{
+    font-family: sans-serif;
+}
+
+/* type selector */
+h1{
+    font-size: 35px;
+}
+
+abbr{
+    color: coral;
+}
+
+/* class selector */
+.penulis{
+    color: crimson;
+}
+
+.tanggal{
+    color: darkolivegreen;
+}
+
+/* id selector */
+#judul-1{
+    color: goldenrod;
+}
+
+/* child selector */
+p>span{
+    color: blueviolet;
+}
+
+article>p{
+    text-align: justify;
+}
+
+/* first child */
+h3+p{
+    color: darkgrey;
+}
+
+/* all child*/
+#judul-2~p{
+    font-style: italic;
+}

@@ -1,0 +1,30 @@
+/* 
+font-family
+font-size -- name, %, px, em
+font-style
+font-weight
+text-decoration
+*/
+h1{
+    font-family: Helvetica;
+    font-size: 180%;
+    font-weight: normal;
+}
+
+.credit{
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tautan{
+    text-decoration: none;
+    font-size: small;
+}
+
+.deskripsi{
+    font-family: Tahoma;
+    font-size: 1em;
+}

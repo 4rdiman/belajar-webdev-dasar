@@ -1,0 +1,50 @@
+/* universal selector */
+*{
+    font-family: Arial;
+}
+
+/* type selector */
+
+h1{
+    color: brown;
+}
+
+p{
+    font-family:'Times New Roman';
+}
+
+/* class selector */
+
+.mak-malam{
+    color: darkgreen;
+}
+
+/* id selector */
+
+#sar-senin{
+    color: coral;
+}
+
+/* child selector */
+p>b{
+    color: cornflowerblue;
+}
+
+/* decendant selector */
+p b{
+    font-size: 20px;
+}
+
+/* adjacent sibling selector */
+h2+p{
+    color: deeppink;
+}
+
+ul+h2{
+    color: crimson;
+}
+
+/* general sibling selector */
+h3~p{
+    color: goldenrod;
+}

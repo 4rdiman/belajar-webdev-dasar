@@ -1,0 +1,53 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefefe;
+}
+
+/* cascade, specific*/
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+span{
+    color: blueviolet;
+}
+
+
+h3{
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* inheritance */
+h3>span{  
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+h3>span{
+    color: crimson;
+}
+
+
+/* coloring */
+h2{
+    background-color: black;
+    color: #fefefe;
+    padding: 10px;
+
+}
+
+h3{
+    background-color: rgba(113, 114, 124, 0.3);
+}
+
+h1{
+    background-color: rgb(255, 0, 255, 0.3);
+}
+
+
+
+
+
+

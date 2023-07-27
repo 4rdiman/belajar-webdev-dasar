@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    color: blueviolet;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+ul{
+    list-style-position: inside;
+    
+}
+
+ul li{
+    width: 400px;
+    margin:10px;
+    text-align: justify;
+}
+
+.singkat{
+    list-style: circle inside;
+}

@@ -1,0 +1,45 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    background-color: rgba(255, 230, 0, 0.5);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
+
+/* inline */
+
+span.inline{
+    display: inline;
+}
+
+/* block */
+span.block{
+    display: block;
+}
+
+/* inline-block */
+span.inline-block{
+    display: inline-block;
+}
+
+.flex-container{
+    background-color: blueviolet;
+    display:flex;
+    flex-wrap: wrap;
+    height: 240px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.flex-content{
+    background-color: beige;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    
+}

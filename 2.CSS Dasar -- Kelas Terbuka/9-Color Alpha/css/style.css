@@ -1,0 +1,35 @@
+body{
+    color: #efefef;
+    
+}
+
+#artikel{
+    color: #efefef;
+    background-color: rgb(78, 77, 77);
+}
+
+h1{
+    background-color: rgb(255, 0, 119);
+}
+
+/* rgba (alpha) mengatur kecerahan*/
+h2{
+    background-color: rgba(255, 0, 119, 0.4);
+}
+
+/* hsl */
+/* 
+hue - 0 sampai 360
+saturation - 0% sampai 100%
+lightness - 0% sampai 100%
+*/
+p{
+    background-color: hsl(125, 97%, 53%);
+}
+
+h2+p{
+    background-color: hsla(125, 97%, 53% , 0.4);
+}
+
+
+

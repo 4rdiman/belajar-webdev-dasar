@@ -1,0 +1,60 @@
+/* box model */
+
+/* 
+widht
+height
+min-widht
+max-widht
+*/
+div.intro{
+    width: 350px;
+    height: 150px;
+    background-color: rgb(89, 190, 75);
+}
+
+div.outro{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(89, 190, 75);
+}
+
+.box1{
+    width: 75%;
+    background-color: coral;
+}
+
+.box2{
+    background-color: cornflowerblue;
+    width: 50%;
+}
+
+div.outro h2{
+    width: 25%;
+    background-color: cadetblue;
+}
+
+table{
+    background-color: aqua;
+}
+
+td.kol2{
+    min-width: 250px;
+    max-width: 400px;
+    background-color: aquamarine;
+}
+
+/* overflow */
+
+/* menghilang */
+.judul1{
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+}
+
+/* ngescroll */
+.par2{
+    width: 250px;
+    height: 100px;
+    overflow: scroll;
+}

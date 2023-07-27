@@ -1,0 +1,56 @@
+/* 
+text-align
+text-transform
+text-shadow
+word-spacing
+letter spacing
+*/
+
+/* untuk link, a: 
+visited -- untuk link ketika selesai di visit
+active -- ketika mengklik link
+hover -- ketika meng-hover cursor
+*/
+h1{
+    font-family: Helvetica;
+    font-size: 180%;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 10px 5px 5px black;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    color: crimson;
+}
+
+.credit{
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tautan{
+    text-decoration: none;
+    font-size: large;
+}
+
+a.tautan:visited{
+    color: darkolivegreen;
+}
+
+a.tautan:hover{
+    color: blue;
+}
+
+a.tautan:active{
+    color:aqua;
+}
+
+
+
+.deskripsi{
+    font-family: Tahoma;
+    font-size: 1em;
+}

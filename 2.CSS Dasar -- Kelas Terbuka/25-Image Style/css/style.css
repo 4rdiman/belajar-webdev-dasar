@@ -1,0 +1,54 @@
+div{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+}
+
+/* image large */
+.img-large{
+    width: 400px;
+    height: 300px;
+}
+
+.align-right{
+    float: right;
+}
+
+.par1{
+    border: 1px solid;
+    margin-right: 410px;
+    text-align: justify;
+}
+
+/* image medium */
+.img-med{
+    width: 250px;
+    height: 150px;
+}
+
+.align-left{
+    float: left;
+}
+
+.par2{
+    margin-left: 260px;
+    border: 1px solid;
+    text-align: justify;
+}
+
+/* image small */
+.img-small{
+    width: 200px;
+    height: 100px;
+}
+
+.align-center{
+    display: block;
+    margin: 0px auto;
+}
+
+.par3{
+    border: 1px solid;
+    text-align: justify;
+}

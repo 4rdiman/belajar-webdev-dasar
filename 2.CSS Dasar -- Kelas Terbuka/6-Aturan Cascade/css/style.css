@@ -1,0 +1,47 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* aturan terakhir */
+b{
+    color: blueviolet;
+}
+
+b{
+    color: crimson; /* ini yang diambil*/
+}
+
+/* spesifik */
+
+i{
+    color: rgb(102, 158, 5); /* level 1 */
+}
+
+p i{
+    font-size: 30px;
+    color: firebrick !important; /* level 3 */
+}
+
+p i{
+    color: darkgoldenrod; /* level 2 */
+}
+
+/* studi kasus */
+
+/* ini lebih spesifik di font size b */
+p b{
+    font-size: 30px;
+}
+
+/* font size untuk p secara universal*/
+p{
+    font-size: 10px;
+}
+
+/* ini lebih spesifik untuk p dengan id intro */
+p#intro{
+    font-size: 20px; 
+}
+
+
+

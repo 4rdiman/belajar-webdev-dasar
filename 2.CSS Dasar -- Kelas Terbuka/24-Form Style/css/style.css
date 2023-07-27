@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    background-color:rgb(209, 209, 209);
+    color: darkslategray;
+    border: 1px solid beige;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 7px;
+    padding-left: 45px;
+
+    background-repeat: no-repeat;
+    background-position: 8px;
+    background-size: 25px;
+}
+
+input:focus{
+    background-color: azure;
+    border: 1px solid beige;
+}
+
+input.email{
+    background-image: url(../img/email.png);
+}
+
+input.instagram{
+    background-image: url(../img/instagram.png);
+}
+
+input.web{
+    background-image: url(../img/web.png);
+}
+
+button{
+    font-weight: bold;
+    font-size: 110%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    color: chocolate;
+    text-shadow: 1px 1px 3px black;
+    background-color: cornflowerblue;
+}
+
+button:hover{
+    background-color:cadetblue;
+}
+
+button:active{
+    background-color: blueviolet;
+}

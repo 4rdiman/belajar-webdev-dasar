@@ -1,0 +1,32 @@
+h1{
+    width: 100px;
+    text-align: center;
+}
+
+.border{
+    border: 2px solid;
+}
+
+.padding1{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.padding2{
+    background-color: coral;
+    /* atas-bawah kiri kanan*/
+    padding: 10px 30px;
+}
+
+.padding3{
+    width: 150px;
+    background-color: crimson;
+    /* atas kiri-kanan bawah */
+    padding: 40px 30px 20px;
+}
+
+.padding4{
+    background-color: darkolivegreen;
+    /* atas kanan bawah kiri */
+    padding: 40px 30px 20px 10px;
+}

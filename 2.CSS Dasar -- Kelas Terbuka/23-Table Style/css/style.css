@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "play-fair";
+    src: url(../font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+}
+
+body{
+    font-family: "play-fair";
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse; 
+}
+
+th{
+    border-top: 1px solid darkorange;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding: 10px;
+    font-size: 80%;
+}
+
+td{
+    padding: 10px;
+}
+
+tr.genap{
+    background-color: bisque;
+}
+
+tr:hover{
+    background-color:burlywood;
+}

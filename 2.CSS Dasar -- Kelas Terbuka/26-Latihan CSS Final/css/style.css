@@ -1,0 +1,147 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* index */
+.header{
+    display: flex;
+    background-color:blanchedalmond;
+    padding: 5px;
+}
+
+/* note: imagenya background putih karena memang begitu latar image aslinya */
+.logo img{
+    height: 70px;
+}
+
+.judul-index{
+    padding-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.judul-index p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* navbar */
+.navbar{
+    background-color: black;
+    padding:10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.navbar a:hover{
+    color: cadetblue;
+}
+
+/* content */
+.content{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.content h1{
+    color: darkolivegreen;
+}
+
+.content h2{
+    color: darkgreen;
+}
+
+/* buku */
+table{
+    border-spacing: 5px;
+    text-align: left;
+}
+
+.table-head{
+    background-color: blanchedalmond;
+}
+
+.table-head th{
+    padding: 10px;
+}
+
+.table-content{
+    background-color: azure;
+}
+
+.table-content td{
+    padding: 10px;
+}
+
+.table-genap{
+    background-color: rgb(198, 241, 241);
+}
+
+.table-genap td{
+    padding: 10px;
+}
+
+table tr:hover{
+    background-color:bisque;
+}
+
+td>img{
+    width: 100px;
+}
+
+/* kontak */
+
+.label-input{
+    margin-bottom: 10px;
+}
+
+.label-input label{
+    color:rgb(92, 109, 124);
+}
+
+.input-nama{
+    margin-bottom: 20px;
+}
+
+.input-nama input{
+    width: 254px;
+}
+
+.input-pertanyaan{
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: darkgreen;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: springgreen;
+    color:blueviolet;
+}
+
+button:active{
+    background-color:coral;
+    color: brown;
+
+}
+
+
+
+
+
+
+

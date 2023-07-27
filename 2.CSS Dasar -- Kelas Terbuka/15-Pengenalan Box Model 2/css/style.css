@@ -1,0 +1,19 @@
+*{
+    font-size:30px;
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    background-color: crimson;
+    padding: 20px;
+    border: 20px solid blueviolet;
+    margin: 60px;  
+}
+
+.container2{
+    background-color: cornflowerblue;
+    padding: 20px;
+    border: 20px solid blueviolet;
+    margin: 30px;
+}

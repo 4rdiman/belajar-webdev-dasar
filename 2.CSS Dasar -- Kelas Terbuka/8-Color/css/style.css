@@ -1,0 +1,35 @@
+/* Color */
+
+/* Foreground Color */
+
+/* Color Name */
+h1{
+    color: darkcyan;
+}
+
+/* hex code */
+h2{
+    color: #b66407;
+}
+
+/* RGB Value */
+p{
+    color: rgb(187, 190, 15);
+}
+
+/* Background Color */
+body{
+    background-color: #efefef;
+}
+
+h1{
+    background-color: coral;
+}
+
+h2{
+    background-color: chartreuse;
+}
+
+p{
+    background-color: rgb(220, 20, 60);
+}

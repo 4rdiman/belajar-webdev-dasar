@@ -1,0 +1,22 @@
+.judul1{
+    border: 10px solid darkgreen;
+    border-style:outset;
+    padding: 10px;
+}
+
+.judul2{
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px dashed darkgoldenrod;
+    border-bottom: 2px dashed darkgoldenrod;
+    border-left: 2px dotted crimson;
+    border-right: 2px dotted crimson;
+}
+
+.judul3{
+    margin-top: 10px;
+    border-color: coral;
+    border-style: solid;
+    border-width: 20px 15px 10px 5px;
+}
+
